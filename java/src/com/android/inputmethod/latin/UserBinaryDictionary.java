@@ -176,6 +176,8 @@ public class UserBinaryDictionary extends ExpandableBinaryDictionary {
                 // the SHORTCUT column is not present for some reason.
                 addWordsFromProjectionLocked(PROJECTION_QUERY_WITHOUT_SHORTCUT, requestString,
                         requestArguments);
+            } catch (IllegalStateException e) {
+                // Do Nothing
             }
         } else {
             addWordsFromProjectionLocked(PROJECTION_QUERY_WITHOUT_SHORTCUT, requestString,
