@@ -27,31 +27,30 @@
         >
             <Key
                 latin:keySpec="&quot;"
-                latin:keyHintLabel="1"
-                latin:additionalMoreKeys="1" />
+                latin:keyHintLabel="/"
+                latin:additionalMoreKeys="/" />
         </case>
         <case
             latin:mode="url"
         >
             <Key
-                latin:keySpec="/"
-                latin:keyHintLabel="1"
-                latin:additionalMoreKeys="1" />
+                latin:keySpec="\'"
+                latin:keyHintLabel="/"
+                latin:additionalMoreKeys="/" />
         </case>
         <case
             latin:mode="email"
         >
             <Key
                 latin:keySpec="\@"
-                latin:keyHintLabel="1"
-                latin:additionalMoreKeys="1" />
+                latin:keyHintLabel="/"
+                latin:additionalMoreKeys="/" />
         </case>
         <default>
             <Key
                 latin:keySpec="\'"
-                latin:keyHintLabel="1"
-                latin:additionalMoreKeys="1"
-                latin:moreKeys="!,&quot;" />
+                latin:keyHintLabel="/"
+                latin:additionalMoreKeys="/" />
         </default>
     </switch>
     <switch>
@@ -59,25 +58,23 @@
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
         >
             <Key
-                latin:keySpec="&lt;"
-                latin:keyHintLabel="2"
-                latin:additionalMoreKeys="2" />
+                latin:keySpec=","
+                latin:keyHintLabel="\?"
+                latin:additionalMoreKeys="\?" />
             <Key
-                latin:keySpec="&gt;"
-                latin:keyHintLabel="3"
-                latin:additionalMoreKeys="3" />
+                latin:keySpec="."
+                latin:keyHintLabel="!"
+                latin:additionalMoreKeys="!" />
         </case>
         <default>
             <Key
                 latin:keySpec=","
-                latin:keyHintLabel="2"
-                latin:additionalMoreKeys="2"
-                latin:moreKeys="\?,&lt;" />
+                latin:keyHintLabel="\?"
+                latin:additionalMoreKeys="\?" />
             <Key
                 latin:keySpec="."
-                latin:keyHintLabel="3"
-                latin:additionalMoreKeys="3"
-                latin:moreKeys="&gt;" />
+                latin:keyHintLabel="!"
+                latin:additionalMoreKeys="!" />
         </default>
     </switch>
 </merge>
